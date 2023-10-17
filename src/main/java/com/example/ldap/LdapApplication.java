@@ -1,13 +1,13 @@
-package com.example;
+package com.example.ldap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringcloudAzureActiveDirectoryApplication {
+public class LdapApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringcloudAzureActiveDirectoryApplication.class, args);
+        SpringApplication.run(LdapApplication.class, args);
     }
 
 }
